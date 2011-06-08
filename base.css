@@ -1,0 +1,37 @@
+
+#content #search_query {
+	border-top: 0px !important;
+}
+
+#header #tabs_outter_container {
+	left: 210px !important;
+}
+
+#header #tabs_container {
+	width: auto !important;
+	float: left !important;
+	white-space: normal !important;
+	height: 53px !important;
+}
+
+#header #default_tabs span {
+	padding-left: 15px;
+}
+
+#header #default_tabs span.tab_notice {
+	padding-left: 4px;
+}
+
+#header #default_tabs span.tab_notice span {
+	padding-left: 0px;
+}
+
+#header .tab #new_post_notice_container {
+	top: 0px !important;
+	left: 0px !important;
+	right: auto !important;
+}
+
+#posts .notification a:not(.avatar_frame) {
+	border-bottom: 0px !important;
+}

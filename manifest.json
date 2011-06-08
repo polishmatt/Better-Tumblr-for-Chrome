@@ -1,0 +1,17 @@
+{
+  "name": "Better Tumblr",
+  "version": "1.0",
+  "description": "Fixes tumblr design issues.",
+  "icons": { 
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.tumblr.com/*"],
+      "css": ["base.css"]
+    }
+  ]
+}
