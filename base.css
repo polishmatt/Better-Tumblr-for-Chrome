@@ -3,12 +3,16 @@
 	border-top: 0px !important;
 }
 
+#posts .notification a:not(.avatar_frame) {
+	border-bottom: 0px !important;
+}
+
 #header #tabs_outter_container {
-	left: 210px !important;
+	left: 218px !important;
 }
 
 #header #tabs_container {
-	width: auto !important;
+	width: auto-15px !important;
 	float: left !important;
 	white-space: normal !important;
 	height: 53px !important;
@@ -24,14 +28,11 @@
 
 #header #default_tabs span.tab_notice span {
 	padding-left: 0px;
+	display: block !important;
 }
 
 #header .tab #new_post_notice_container {
 	top: 0px !important;
 	left: 0px !important;
 	right: auto !important;
-}
-
-#posts .notification a:not(.avatar_frame) {
-	border-bottom: 0px !important;
 }
