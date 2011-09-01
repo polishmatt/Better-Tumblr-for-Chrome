@@ -1,8 +1,4 @@
 
-#content #search_query {
-	border-top: 0px !important;
-}
-
 #posts .notification a:not(.avatar_frame) {
 	border-bottom: 0px !important;
 }
@@ -16,6 +12,7 @@
 	float: left !important;
 	white-space: normal !important;
 	height: 53px !important;
+	overflow: hidden !important;
 }
 
 #header #default_tabs span {
