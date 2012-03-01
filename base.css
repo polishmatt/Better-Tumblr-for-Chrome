@@ -33,3 +33,7 @@
 	left: 0px !important;
 	right: auto !important;
 }
+
+span.sub_control.link_arrow {
+	visibility: hidden;
+}
