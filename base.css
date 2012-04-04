@@ -11,7 +11,6 @@
 	width: auto-15px !important;
 	float: left !important;
 	white-space: normal !important;
-	height: 53px !important;
 	overflow: hidden !important;
 }
 
@@ -34,6 +33,24 @@
 	right: auto !important;
 }
 
+#header #inbox_button {
+	position: relative !important;
+	top: 3px !important;
+}
+
+#header #inbox_button:hover {
+	top: 0px !important;
+}
+
+#content {
+	position: relative !important;
+	top: -2px !important;
+}
+
 span.sub_control.link_arrow {
 	visibility: hidden;
+}
+
+.mask.bottom {
+	height: 18px !important;
 }
